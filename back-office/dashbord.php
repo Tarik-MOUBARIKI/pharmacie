@@ -22,12 +22,12 @@
 
 
   <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#"><i class="fas fa-shopping-cart text-danger"></i> Stock
-      management</a>
+    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">MTPHARMACIE</a>
 
     <ul class="navbar-nav px-3">
       <li class="nav-item text-nowrap">
-        <a class="nav-link" href="#"><i class="fas fa-home fa-2x"></i></a>
+       
+      
       </li>
     </ul>
   </nav>
@@ -46,7 +46,7 @@
             
             <li class="nav-item">
               <a class="nav-link" href="order.php">
-                Order
+                commandes
               </a>
             </li>
            
@@ -61,7 +61,7 @@
       <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
         <div
           class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-          <h2>gestion des produits pharmaceutiques</h2>
+          <h2>Gestion des produits pharmaceutiques</h2>
         </div>
 
         <div class="container">
@@ -73,12 +73,7 @@
             </button>
             </div>
             <div class="col-12 col-md-12 col-xl-6 d-flex justify-content-start align-items-center">
-                <div class="search">
-                   <input type="search" class="searchTerm" id="myInput" placeholder="What are you looking for?">
-                   <button type="submit" class="searchButton">
-                     <i class="fa fa-search"></i>
-                  </button>
-                </div>
+                
            
             </div>
            
@@ -90,6 +85,7 @@
                 <th scope="col">#</th>
                 <th scope="col">Image</th>
                 <th>Nom</th>
+                <th scope="col">categorie</th>
                 <th scope="col">Prix</th>
                 <th scope="col">Description</th>
                 <th scope="col">Action</th>
@@ -98,8 +94,9 @@
             <tbody>
                 <tr>
                 <th scope="row">1</th>
-                <td><img width="25%" src="../images/download.jpg"></td>
+                <td><img width="25%" src="../public/images/download.jpg"></td>
                 <td>Doliplane</td>
+                <td>sans ordonnance</td>
                 <td>Otto</td>
                 <td>DOLIPRANE adultes 1000 mg 8 sachets</td>
                 <td>
@@ -110,8 +107,9 @@
 
                 <tr>
                 <th scope="row">2</th>
-                <td><img width="25%" src="../images/download.jpg"></td>
+                <td><img width="25%" src="../public/images/download.jpg"></td>
                 <td>Doliplane</td>
+                <td>sans ordonnance</td>
                 <td>Otto</td>
                 <td>DOLIPRANE adultes 1000 mg 8 sachets</td>
                 <td>
@@ -122,8 +120,9 @@
 
                 <tr>
                 <th scope="row">3</th>
-                <td><img width="25%" src="../images/download.jpg"></td>
+                <td><img width="25%" src="../public/images/download.jpg"></td>
                 <td>Doliplane</td>
+                <td>sans ordonnance</td>
                 <td>Otto</td>
                 <td>DOLIPRANE adultes 1000 mg 8 sachets</td>
                 <td>
